@@ -22,17 +22,40 @@ This C program simulates a restaurant order management system catering to waiter
 - User input is validated for error handling.
 
 **Building and Running**
+Building and Running the project on Windows using Command Prompt (cmd):
 
-1. **Prerequisites:**
-   - A C compiler (e.g., GCC, Clang)
-2. **Compilation:**
-   ```bash
-   gcc main.c headers.c -o restaurant_order_system
-   ```
-3. **Execution:**
-   ```bash
-   ./restaurant_order_system
-   ```
+**1. Install a C Compiler:**
+
+  - **MinGW:** Download and install MinGW ([https://www.mingw-w64.org/downloads/](https://www.mingw-w64.org/downloads/)), ensuring you add the bin directory to your system path during installation.
+
+**2. Open Command Prompt:**
+
+  - Search for "cmd" and open it.
+
+**3. Navigate to your project directory and Compile the code:**
+
+  - Use `cd` to change directories, for example:
+
+    ```cmd
+    cd Desktop/restaurant_system
+    ```
+  - Compiling the code:
+    
+    ```cmd
+    gcc main.c -o restaurant_order_system.exe
+    ```
+    
+**4. Run the program:**
+
+  - Double-click the `restaurant_order_system.exe` file in your project directory.
+
+    ```OR```
+
+  - In the same cmd window, type:
+
+    ```cmd
+    restaurant_order_system.exe
+    ```
 
 **Disclaimer**
 
